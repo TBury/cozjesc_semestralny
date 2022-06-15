@@ -1,0 +1,6 @@
+name='Jajecznica' ingredients=[jajka] recipe='Jajka rozbijamy za pomocą trzepaczki. Wlewamy jajka na patelnię i mieszamy.'
+name='Jajecznica z boczkiem i cebulą' ingredients=[jajka,boczek] recipe='Pokrojoną cebulę wrzucamy na patelnię i czekamy, aż się zeszkli. Jajka rozbijamy za pomocą trzepaczki. Do podsmażonej cebuli dodajemy boczek i lekko podsmażamy. Wlewamy jajka na patelnię i cały czas mieszamy.'
+name='Pierniczki' ingredients=[mąka pszenna,jajka,cukier puder,masło,miód,kakao,soda oczyszczona] recipe='Z mąki pszennej, jajek, cukru pudru, masła, miodu, kakao i sody oczyszczonej zagniatamy ciasto. Będzie się lekko lepić ale nie dodajemy mąki. Następnie lekko podsypujemy stolnicę mąką i rozwałkowujemy na grubość ok 4-5 mm. Następnie wycinamy dowolne kształty i pieczemy w piekarniku rozgrzanym do 180 stopni w zależności od ich wielkości 8-10 minut.'
+name='Kanapka z masłem' ingredients=[chleb,masło] recipe='Posmaruj chleb masłem'
+name='Kanapka z serem i pomidorem' ingredients=[chleb,masło,ser żółty,pomidor] recipe='Posmaruj chleb masłem i połóż na nim żółty ser. Następnie pokrój pomidora i nałóż na chleb'
+name='Kanapka z serem' ingredients=[chleb,masło,ser żółty] recipe='Weź kromkę chleba i posmaruj ją masłem. Następnie połóż na niej ser żółty.'
