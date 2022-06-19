@@ -38,26 +38,6 @@
    <enum>Qt::ToolButtonIconOnly</enum>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>750</x>
-      <y>10</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../../Downloads/Vector (1).png</normaloff>../../Downloads/Vector (1).png</iconset>
-    </property>
-    <property name="flat">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
@@ -132,8 +112,8 @@
        <string/>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>../../Downloads/Untitled/Group.png</normaloff>../../Downloads/Untitled/Group.png</iconset>
+       <iconset resource="zasoby.qrc">
+        <normaloff>:/new/prefix1/all.png</normaloff>:/new/prefix1/all.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -187,8 +167,8 @@
        <string/>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>../../Downloads/Untitled/Group-2.png</normaloff>../../Downloads/Untitled/Group-2.png</iconset>
+       <iconset resource="zasoby.qrc">
+        <normaloff>:/new/prefix1/generate.png</normaloff>:/new/prefix1/generate.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -242,8 +222,8 @@
        <string/>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>../../Downloads/Untitled/Group-3.png</normaloff>../../Downloads/Untitled/Group-3.png</iconset>
+       <iconset resource="zasoby.qrc">
+        <normaloff>:/new/prefix1/add.png</normaloff>:/new/prefix1/add.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -277,8 +257,8 @@
        <string/>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>../../Downloads/Untitled/Group-1.png</normaloff>../../Downloads/Untitled/Group-1.png</iconset>
+       <iconset resource="zasoby.qrc">
+        <normaloff>:/new/prefix1/delete.png</normaloff>:/new/prefix1/delete.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -682,7 +662,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Downloads/Component 1.png</pixmap>
+     <pixmap resource="zasoby.qrc">:/new/prefix1/logo.png</pixmap>
     </property>
    </widget>
   </widget>
@@ -698,6 +678,8 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="zasoby.qrc"/>
+ </resources>
  <connections/>
 </ui>

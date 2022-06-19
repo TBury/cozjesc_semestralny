@@ -31,7 +31,6 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QPushButton *pushButton;
     QFrame *line;
     QStackedWidget *stackedWidget;
     QWidget *main;
@@ -91,13 +90,6 @@ public:
         MainWindow->setToolButtonStyle(Qt::ToolButtonIconOnly);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        pushButton = new QPushButton(centralwidget);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(750, 10, 41, 31));
-        QIcon icon;
-        icon.addFile(QString::fromUtf8("../../Downloads/Vector (1).png"), QSize(), QIcon::Normal, QIcon::Off);
-        pushButton->setIcon(icon);
-        pushButton->setFlat(true);
         line = new QFrame(centralwidget);
         line->setObjectName(QString::fromUtf8("line"));
         line->setGeometry(QRect(0, 50, 801, 16));
@@ -124,9 +116,9 @@ public:
         viewAll_Button->setLayoutDirection(Qt::LeftToRight);
         viewAll_Button->setAutoFillBackground(false);
         viewAll_Button->setStyleSheet(QString::fromUtf8(""));
-        QIcon icon1;
-        icon1.addFile(QString::fromUtf8("../../Downloads/Untitled/Group.png"), QSize(), QIcon::Normal, QIcon::Off);
-        viewAll_Button->setIcon(icon1);
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/new/prefix1/all.png"), QSize(), QIcon::Normal, QIcon::Off);
+        viewAll_Button->setIcon(icon);
         viewAll_Button->setIconSize(QSize(100, 118));
         viewAll_Button->setFlat(true);
         label_3 = new QLabel(main);
@@ -139,9 +131,9 @@ public:
         viewAll_Button_3->setLayoutDirection(Qt::LeftToRight);
         viewAll_Button_3->setAutoFillBackground(false);
         viewAll_Button_3->setStyleSheet(QString::fromUtf8(""));
-        QIcon icon2;
-        icon2.addFile(QString::fromUtf8("../../Downloads/Untitled/Group-2.png"), QSize(), QIcon::Normal, QIcon::Off);
-        viewAll_Button_3->setIcon(icon2);
+        QIcon icon1;
+        icon1.addFile(QString::fromUtf8(":/new/prefix1/generate.png"), QSize(), QIcon::Normal, QIcon::Off);
+        viewAll_Button_3->setIcon(icon1);
         viewAll_Button_3->setIconSize(QSize(100, 118));
         viewAll_Button_3->setFlat(true);
         label_5 = new QLabel(main);
@@ -154,9 +146,9 @@ public:
         viewAll_Button_2->setLayoutDirection(Qt::LeftToRight);
         viewAll_Button_2->setAutoFillBackground(false);
         viewAll_Button_2->setStyleSheet(QString::fromUtf8(""));
-        QIcon icon3;
-        icon3.addFile(QString::fromUtf8("../../Downloads/Untitled/Group-3.png"), QSize(), QIcon::Normal, QIcon::Off);
-        viewAll_Button_2->setIcon(icon3);
+        QIcon icon2;
+        icon2.addFile(QString::fromUtf8(":/new/prefix1/add.png"), QSize(), QIcon::Normal, QIcon::Off);
+        viewAll_Button_2->setIcon(icon2);
         viewAll_Button_2->setIconSize(QSize(100, 118));
         viewAll_Button_2->setFlat(true);
         viewAll_Button_4 = new QPushButton(main);
@@ -165,9 +157,9 @@ public:
         viewAll_Button_4->setLayoutDirection(Qt::LeftToRight);
         viewAll_Button_4->setAutoFillBackground(false);
         viewAll_Button_4->setStyleSheet(QString::fromUtf8(""));
-        QIcon icon4;
-        icon4.addFile(QString::fromUtf8("../../Downloads/Untitled/Group-1.png"), QSize(), QIcon::Normal, QIcon::Off);
-        viewAll_Button_4->setIcon(icon4);
+        QIcon icon3;
+        icon3.addFile(QString::fromUtf8(":/new/prefix1/delete.png"), QSize(), QIcon::Normal, QIcon::Off);
+        viewAll_Button_4->setIcon(icon3);
         viewAll_Button_4->setIconSize(QSize(100, 118));
         viewAll_Button_4->setFlat(true);
         label_2 = new QLabel(main);
@@ -293,7 +285,7 @@ public:
         label = new QLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(30, 10, 131, 31));
-        label->setPixmap(QPixmap(QString::fromUtf8("../../Downloads/Component 1.png")));
+        label->setPixmap(QPixmap(QString::fromUtf8(":/new/prefix1/logo.png")));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -314,7 +306,6 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "co zje\305\233\304\207? Aplikacja", nullptr));
-        pushButton->setText(QString());
         label_4->setText(QCoreApplication::translate("MainWindow", "wygeneruj przepis ze sk\305\202adnik\303\263w", nullptr));
         viewAll_Button->setText(QString());
         label_3->setText(QCoreApplication::translate("MainWindow", "dodaj nowy przepis", nullptr));

@@ -429,5 +429,6 @@ cozjesc_autogen/timestamp: \
 	C:/Users/ezdamin/Documents/cozjesc/main.cpp \
 	C:/Users/ezdamin/Documents/cozjesc/mainwindow.cpp \
 	C:/Users/ezdamin/Documents/cozjesc/mainwindow.h \
+	C:/Users/ezdamin/Documents/cozjesc/zasoby.qrc \
 	C:/Users/ezdamin/Documents/cozjesc/mainwindow.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

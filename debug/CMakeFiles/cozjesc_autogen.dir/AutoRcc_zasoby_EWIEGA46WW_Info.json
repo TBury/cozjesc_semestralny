@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "C:/Users/ezdamin/Documents/build-cozjesc-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/cozjesc_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/ezdamin/Documents/build-cozjesc-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/ezdamin/Documents/build-cozjesc-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/ezdamin/Documents/cozjesc",
+	"CMAKE_SOURCE_DIR" : "C:/Users/ezdamin/Documents/cozjesc",
+	"INCLUDE_DIR" : "C:/Users/ezdamin/Documents/build-cozjesc-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/cozjesc_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/ezdamin/Documents/cozjesc/all.png",
+		"C:/Users/ezdamin/Documents/cozjesc/generate.png",
+		"C:/Users/ezdamin/Documents/cozjesc/add.png",
+		"C:/Users/ezdamin/Documents/cozjesc/delete.png",
+		"C:/Users/ezdamin/Documents/cozjesc/logo.png"
+	],
+	"LOCK_FILE" : "C:/Users/ezdamin/Documents/build-cozjesc-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/cozjesc_autogen.dir/AutoRcc_zasoby_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "zasoby" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_zasoby.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.2.4/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/ezdamin/Documents/build-cozjesc-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/cozjesc_autogen.dir/AutoRcc_zasoby_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/ezdamin/Documents/cozjesc/zasoby.qrc",
+	"VERBOSITY" : 0
+}

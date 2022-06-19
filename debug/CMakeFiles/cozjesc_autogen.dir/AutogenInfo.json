@@ -251,7 +251,8 @@
 		"C:/Qt/6.2.4/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake",
 		"C:/Qt/6.2.4/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake",
 		"C:/Qt/6.2.4/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.21/Modules/CMakeParseArguments.cmake"
+		"C:/Qt/Tools/CMake_64/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"C:/Users/ezdamin/Documents/cozjesc/zasoby.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/ezdamin/Documents/cozjesc",
 	"DEP_FILE" : "C:/Users/ezdamin/Documents/build-cozjesc-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/cozjesc_autogen/deps",
