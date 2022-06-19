@@ -110,7 +110,6 @@ void MainWindow::deleteRecipe(){
            if (line.find(toFind) == string::npos){
                out << line << "\n";
            }
-           else flag=1;
        }
     file.close();
     out.close();
